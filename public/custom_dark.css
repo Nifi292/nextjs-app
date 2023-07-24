@@ -1,0 +1,99 @@
+/* This is the custom css page for dark theme */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('/fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* Specify the style specific to body */
+body{
+  width: 49%;
+  color: #EFEEEE;
+}
+/* All headings with classname h1 will have the following styles */
+h1 {
+  font-family: 'Poppins';
+  font-size: 65px;
+  font-weight: 400;
+}
+/* All headings with classname h2 will have the following styles */
+h2 {
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 500;
+}
+/* All headings with classname h3 will have the following styles */
+h3 {
+  font-family: 'Poppins';
+  font-size: 23px;
+  font-weight: 600;
+}
+/* All headings with classname h4 will have the following styles */
+h4.h4 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+}
+/* All headings with classname h5 will have the following styles */
+h5 {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+}
+/* All headings with classname h6 will have the following styles */
+h6 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  
+  font-weight: 500;
+}
+/* All headings with classname h7 will have the following styles */
+h7 {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+}
+/* All paragraphs with classname p1 will have the following styles */
+p.p1 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+}
+/* All paragraphs with classname p2 will have the following styles */
+p.p2 {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+}
+/* All buttons with classname button-viewmore will have the following styles */
+button.button-viewmore{
+  color: #EFEEEE;
+  background-color: #0A65FE;
+  border-radius: 0.375rem;
+  width: 100%;
+  padding: 2px;
+}
+/* All buttons with classname button-plus will have the following styles */
+button.button-plus{
+  color: #EFEEEE;
+  background-color: #0A65FE;
+  border-radius: 0.375rem;
+  width: 33%;
+ 
+  padding: 2px;
+}
+/* All buttons with classname button-create will have the following styles */
+button.button-create{
+  color: #EFEEEE;
+  background-color: #0A65FE;
+  border-radius: 0.375rem;
+  width: 28%;
+  
+  padding: 2px;
+}
